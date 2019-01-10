@@ -1,0 +1,10 @@
+use sstf
+lowerCYL 100
+upperCYL 30  # initital > upper
+             # generates error code 11 on exit
+initCYL 200
+cylreq 300
+cylreq 100 
+cylreq 450
+cylreq 350
+end

@@ -1,0 +1,10 @@
+use sstf
+lowerCYL 100 # initial < lower
+upperCYL 300 # generates error/abort code 12 on exit
+             
+initCYL 20
+cylreq 300
+cylreq 100
+cylreq 450
+cylreq 350
+end
